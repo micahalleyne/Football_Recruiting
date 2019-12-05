@@ -1,21 +1,28 @@
 body{
-  background-color: #c1c1c1;
+  background-color: #252525;
+}
+.links{
+  color: #fff;
+  font-size: 25px;
+  margin: 25px;
 }
 h1{
   text-align: center;
   font-size: 300%;
   font-family: sans-serif;
+  color: #fff;
 }
 h2{
   text-align: center;
   font-size: 200%;
   font-family: sans-serif;
+  color: #fff;
 }
 .box{
   display: inline-block;
-  background-color: lightgrey;
+  background-color: #fff;
   width: 300px;
-  border: 15px solid #404040;
+  border: 15px solid #da2d2d;
   padding: 25px;
   margin: 40px;
 }

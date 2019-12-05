@@ -1,5 +1,6 @@
-<%= link_to "Athletes", athletes_path %>
-
+<%= link_to "Home", index_path, class:"links" %>
+<%= link_to "Athletes", athletes_path, class:"links" %>
+<%= link_to "News", news_path, class:"links" %>
 
 <h1>Recruit Football</h1>
 <div class="Image_Text">
@@ -8,29 +9,36 @@
 </div>
 
 
-<div class="box">
-<ul>
-  <li>William Bain</li>
-  <li>5' 8",150lbs</li>
-  <li>Wr,Olb</li>
-  <li>Freshman</li>
-</ul>
-</div>
+<%= link_to 'google.com' do %>
+  <div class="box">
+    <ul>
+      <li>William Bain</li>
+      <li>5' 8",150lbs</li>
+      <li>Wr,Olb</li>
+      <li>Freshman</li>
+    </ul>
+  </div>
+<% end %>
 
-<div class="box">
-<ul>
-<li>Ruben Ochoa</li>
-<li>5' 7",130lbs</li>
-<li>Wr,Cb</li>
-<li>Freshman</li>
-</ul>
-</div>
 
+<%= link_to 'google.com' do %>
+  <div class="box">
+    <ul>
+      <li>Ruben Ochoa</li>
+      <li>5' 7",130lbs</li>
+      <li>Wr,Cb</li>
+      <li>Freshman</li>
+    </ul>
+  </div>
+<% end %>
+
+<%= link_to 'google.com' do %>
 <div class="box">
-<ul>
-<li></li>
-<li>5' 8",205lbs</li>
-<li>Rb,De</li>
-<li>Freshman</li>
-</ul>
+  <ul>
+    <li>Kyle G</li>
+    <li>5' 8",205lbs</li>
+    <li>Rb,De</li>
+    <li>Freshman</li>
+  </ul>
 </div>
+<% end %>
