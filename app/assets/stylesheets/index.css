@@ -35,3 +35,16 @@ li{
 .header_image{
   width: 28%;
 }
+.N_section{
+  text-align: center;
+  background-color: #fafafa;
+}
+.N_h2{
+  color: #393e46;
+}
+.N_p{
+  font-size: 20px;
+}
+.h_image{
+  object-fit: cover;
+}
