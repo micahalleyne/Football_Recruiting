@@ -24,10 +24,11 @@ h2{
   width: 300px;
   border: 15px solid #da2d2d;
   padding: 25px;
-  margin: 40px;
+  margin: 72px;
 }
 li{
   font-size: 20px;
+  line-height: 30px;
 }
 .Image_Text{
   text-align: center;
@@ -46,5 +47,9 @@ li{
   font-size: 20px;
 }
 .h_image{
-  object-fit: cover;
+  width: 145px;
+}
+
+.small-box{
+  display: inline-block;
 }
